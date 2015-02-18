@@ -57,8 +57,8 @@ public class MusicOrganizer
      */
     public void listAllFiles()
     {
-        for(String filename : files) {
-            System.out.println(filename);
+        for(int contador = 0; contador < files.size(); contador++) {
+            System.out.println(files.get(contador));
         }
     }
     
